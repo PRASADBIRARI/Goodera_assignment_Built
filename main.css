@@ -1,0 +1,161 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    /* scroll-behavior: smooth; */
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    /* font-size: 1.6rem; */
+    font-weight: 400;
+    background-color: #EAEAEA;
+    color: #000;
+    position: relative;
+    z-index: 0;
+}
+
+/* COMMON CSS */
+h1, h2, h4, h3 {
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+.white_color{
+    color: #fff
+}
+.flex {
+    display: flex;
+}
+.center {
+    align-items: center;
+}
+.space {
+    justify-content: space-between;
+}
+.none {
+    outline: none;
+    border: none;
+}
+.gap{
+    gap: 10px;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 364px;
+    background: linear-gradient(274.83deg, #5DB0DF 0.58%, #5D7ADF 74.3%);
+    padding: 3% 8%;
+}
+.heading h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    margin-top: 60px;
+}
+.heading p {
+    font-size: 20px;
+}
+
+/* MAIN */
+#main {
+    padding: 3% 8%;
+}
+
+/* --NAVBAR */
+.nav_bar_wrap{
+    height: 27px;
+    font-size: 14px;
+}
+.navContainer1 {
+    width: 30%;
+}
+.navContainer2{
+    width: 15%;
+}
+.logo {
+    gap: 10px;
+}
+
+/* SEARCHBAR */
+#searchbox {
+    background: #fff;
+    height: 100px;
+    margin-top: -100px;
+    border-radius: 15px;
+    padding: 0px 20px;
+    /* align-items: center; */
+}
+.searchTab {
+    gap: 10px;
+}
+.inputbox::placeholder{
+    font-size: 17px;
+}
+.selectbox{
+    width: 300px;
+    color: #7B7B7B;
+    font-size: 17px;
+}
+.btn_search {
+    width: 280px;
+    background: #f07987;
+    font-size: 24px;
+    height: 60px;
+    font-style: bold;
+}
+
+/* CARDHOLDERS */
+.cardWrapper{
+    margin-top: 50px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 545px 545px;
+    grid-template-rows: 200px 200px 200px;
+}
+.card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 5%;
+}
+.imagebox {
+    background: #C4C4C4;
+    height: 150px;
+    width: 150px;
+    border-radius: 16px;
+}
+.detailbox {
+    width: 320px;
+}
+.detailbox > h2 {
+    font-size: 24px;
+    font-style: bold;
+    color: #000;
+}
+.detailbox > p {
+    font-size: 14px;
+    color: gray;
+}
+.cardbtn{
+    color: #F07987;
+    border: 1px solid #F07987;
+    border-radius: 7px;
+    background: transparent;
+    height: 40px;
+    width: 120px;
+    margin-left: 180px;
+    margin-top: 10px;
+}
